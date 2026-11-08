@@ -1,0 +1,10 @@
+
+# Project data (not tracked in Git)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
