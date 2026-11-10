@@ -1,0 +1,31 @@
+name,std_smiles,label,proba,nn_sim,kind
+rolitetracycline,CN(C)[C@@H]1C(=O)/C(=C(/O)NCN2CCCC2)C(=O)[C@@]2(O)C(=O)C3=C(O)c4c(O)cccc4[C@@](C)(O)[C@H]3C[C@@H]12,1,0.025058723296650362,0.8630136847496033,false negative
+piperacillin,CCN1CCN(C(=O)N[C@@H](C(=O)N[C@@H]2C(=O)N3[C@@H]2SC(C)(C)[C@@H]3C(=O)O)c2ccccc2)C(=O)C1=O,1,0.045456288402994566,0.7042253613471985,false negative
+cloxacillin,Cc1onc(-c2ccccc2Cl)c1C(=O)N[C@@H]1C(=O)N2[C@@H]1SC(C)(C)[C@@H]2C(=O)O,1,0.06650479455804244,0.5616438388824463,false negative
+cefuroxime,CO/N=C(\C(=O)N[C@@H]1C(=O)N2C(C(=O)O)=C(COC(N)=O)CS[C@H]12)c1ccco1,1,0.06823761276160137,0.6279069781303406,false negative
+ceftriaxone,CO/N=C(\C(=O)N[C@@H]1C(=O)N2C(C(=O)O)=C(CSc3nc(=O)c(=O)[nH]n3C)CS[C@H]12)c1csc(N)n1,1,0.0720259956084093,0.7126436829566956,false negative
+Ticarcillin,CC1(C)S[C@@H]2[C@H](NC(=O)[C@H](C(=O)[O-])c3ccsc3)C(=O)N2[C@H]1C(=O)[O-],1,0.07283641787025563,0.5692307949066162,false negative
+cefamandole,Cn1nnnc1SCC1=C(C(=O)O)N2C(=O)[C@@H](NC(=O)[C@H](O)c3ccccc3)[C@H]2SC1,1,0.08116508784055634,0.7123287916183472,false negative
+Ceftazidime,CC(C)(O/N=C(\C(=O)N[C@@H]1C(=O)N2C(C(=O)[O-])=C(C[n+]3ccccc3)CS[C@H]12)c1csc(N)n1)C(=O)O,1,0.08854281898013101,0.6585366129875183,false negative
+cefotaxime,CO/N=C(\C(=O)N[C@H]1C(=O)N2C(C(=O)[O-])=C(COC(C)=O)CS[C@@H]12)c1csc(N)n1,1,0.1119085977083596,0.6419752836227417,false negative
+cefoperazone,CCN1CCN(C(=O)N[C@@H](C(=O)N[C@@H]2C(=O)N3C(C(=O)O)=C(CSc4nnnn4C)CS[C@H]23)c2ccc(O)cc2)C(=O)C1=O,1,0.12475847346811615,0.6842105388641357,false negative
+Amikacin,NCC[C@H](O)C(=O)N[C@@H]1C[C@H](N)[C@@H](O[C@H]2O[C@H](CN)[C@@H](O)[C@H](O)[C@H]2O)[C@H](O)[C@H]1O[C@H]1O[C@H](CO)[C@@H](O)[C@H](N)[C@H]1O,1,0.15721301276249827,0.421875,false negative
+Plicamycin,CO[C@H](C(=O)[C@@H](O)[C@@H](C)O)[C@@H]1Cc2cc3cc(O[C@H]4C[C@@H](O[C@H]5C[C@@H](O)[C@H](O)[C@@H](C)O5)[C@H](O)[C@@H](C)O4)c(C)c(O)c3c(O)c2C(=O)[C@H]1O[C@H]1C[C@@H](O[C@H]2C[C@@H](O[C@H]3C[C@](C)(O)[C@H](O)[C@@H](C)O3)[C@H](O)[C@@H](C)O2)[C@H](O)[C@@H](C)O1,1,0.15801630830925595,0.24786324799060822,false negative
+cefoxitin,CO[C@@]1(NC(=O)Cc2cccs2)C(=O)N2C(C(=O)O)=C(COC(N)=O)CS[C@@H]21,1,0.18680776309412553,0.4333333373069763,false negative
+Teniposide,COc1cc([C@@H]2c3cc4c(cc3[C@@H](OC3OC5COC(c6cccs6)OC5C(O)C3O)[C@H]3COC(=O)[C@H]23)OCO4)cc(OC)c1O,1,0.20558592038677348,0.7530864477157593,false negative
+celucloral,OC1OC(COCCOC(O)C(Cl)(Cl)Cl)C(OC2OC(COCCOCCOC(O)C(Cl)(Cl)Cl)CC(OC(O)C(Cl)(Cl)Cl)C2O)C(OCCOCCOC(O)C(Cl)(Cl)Cl)C1O,1,0.21459386542942407,0.2405063360929489,false negative
+dicyclomine,CCN(CC)CCOC(=O)C1(C2CCCCC2)CCCCC1,0,0.9314766083317987,0.3469387888908386,false positive
+Thiopental,CCCC(C)C1(CC)C(=O)NC(=S)NC1=O,0,0.9311999234150508,0.7333333492279053,false positive
+Dyclonine,CCCCOc1ccc(C(=O)CCN2CCCCC2)cc1,0,0.9283858737064213,0.43103447556495667,false positive
+Domperidone,O=c1[nH]c2ccccc2n1CCCN1CCC(n2c(=O)[nH]c3cc(Cl)ccc32)CC1,0,0.9112569848638817,0.609375,false positive
+coumarin,O=c1ccc2ccccc2o1,0,0.9090575512697938,0.3529411852359772,false positive
+Efavirenz,O=C1Nc2ccc(Cl)cc2[C@@](C#CC2CC2)(C(F)(F)F)O1,0,0.899637865156448,0.30909091234207153,false positive
+Phenylbutazone,CCCCC1C(=O)N(c2ccccc2)N(c2ccccc2)C1=O,0,0.8926592505276689,0.3658536672592163,false positive
+clofibrate,CCOC(=O)C(C)(C)Oc1ccc(Cl)cc1,0,0.8912787767787413,0.30000001192092896,false positive
+fenoxazoline,CC(C)c1ccccc1OCC1=NCCN1,0,0.8903028767699397,0.27272728085517883,false positive
+phenacetin,CCOc1ccc(NC(C)=O)cc1,0,0.872185052983886,0.2857142984867096,false positive
+Nicotinyl alcohol,OCc1cccnc1,0,0.8695843867107196,0.47826087474823,false positive
+Ketorolac,O=C(c1ccccc1)c1ccc2n1CCC2C(=O)O,0,0.8684786487913787,0.3265306055545807,false positive
+Betamethasone,C[C@H]1C[C@H]2[C@@H]3CCC4=CC(=O)C=C[C@]4(C)[C@@]3(F)[C@@H](O)C[C@]2(C)[C@@]1(O)C(=O)CO,0,0.8639166673987307,0.6760563254356384,false positive
+Bretyliumtosilate,CC[N+](C)(C)Cc1ccccc1Br,0,0.8636058491686723,0.2222222238779068,false positive
+pheniramine,CN(C)CCC(c1ccccc1)c1ccccn1,0,0.862959099131236,0.41860464215278625,false positive

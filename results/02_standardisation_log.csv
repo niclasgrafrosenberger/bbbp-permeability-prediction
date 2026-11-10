@@ -1,0 +1,6 @@
+step,count
+molecules from notebook 01,1965
+molecules changed by fragment removal,105
+rows in new conflicting groups removed,2
+new duplicate rows removed,8
+molecules after standardisation,1955

@@ -1,0 +1,6 @@
+step,count
+raw rows,2050
+invalid SMILES removed,11
+rows in conflicting groups removed,20
+consistent duplicate rows removed,54
+clean molecules,1965
