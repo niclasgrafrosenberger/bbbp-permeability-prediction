@@ -174,10 +174,8 @@ By distance to the training data (five equally sized bins of the nearest-neighbo
 Most confident errors (`results/03_confident_errors.csv`): ten of the 15 most confident false negatives are beta-lactam
 antibiotics labelled penetrating, with a very low predicted probability although their similarity to training molecules
 is mostly 0.56 to 0.71, which suggests that their neighbours carry the opposite label. Several of the most confident
-false positives are drugs with known central effects (for example thiopental), which suggests label noise as well;
-others (a permanently charged quaternary ammonium compound with low similarity to the training data, domperidone)
-point to transport mechanisms that descriptors and fingerprints cannot represent. The labels were not re-checked
-against primary sources.
+false positives are drugs with known central effects, which suggests label noise as well; others point to transport 
+mechanisms that descriptors and fingerprints cannot represent. The labels were not re-checkedagainst primary sources.
 
 ### What can be trusted
 
